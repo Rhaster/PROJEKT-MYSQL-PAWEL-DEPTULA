@@ -1,0 +1,1 @@
+SELECT*FROM kosmici INNER JOIN wladcy ON kosmici.id_wladcy=wladcy.id_wladcy WHERE wladcy.HIERARHIA LIKE "PIES SOMSIADA";

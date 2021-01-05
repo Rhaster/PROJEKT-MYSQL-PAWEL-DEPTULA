@@ -1,0 +1,1 @@
+UPDATE panowie SET IMIE ="SZPIEG" WHERE id_pana=1;

@@ -1,0 +1,4 @@
+CREATE TRIGGER propracowniczy AFTER UPDATE ON pracownicy  FOR EACH ROW 
+
+UPDATE pracownicy SET ZACHOWANIE ="KULTYSTA";
+;

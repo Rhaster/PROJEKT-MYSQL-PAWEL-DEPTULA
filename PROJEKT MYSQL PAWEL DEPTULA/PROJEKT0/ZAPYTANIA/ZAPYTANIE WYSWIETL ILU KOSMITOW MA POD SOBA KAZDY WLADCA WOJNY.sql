@@ -1,0 +1,1 @@
+SELECT COUNT(kosmici.IMIE),wladcy.IMIE,wladcy.HIERARHIA FROM kosmici  LEFT JOIN wladcy ON kosmici.id_wladcy=wladcy.id_wladcy WHERE wladcy.HIERARHIA  LIKE "MISTRZ WOJNY" GROUP BY wladcy.IMIE;

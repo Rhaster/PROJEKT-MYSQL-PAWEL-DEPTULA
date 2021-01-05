@@ -1,0 +1,1 @@
+SELECT COUNT(pracownicy.IMIE),sludzy.WYDZIAL FROM pracownicy LEFT JOIN sludzy ON pracownicy.id_szefa=sludzy.id_szefa WHERE WYDZIAL  NOT LIKE "TAJNY" GROUP BY sludzy.WYDZIAL;

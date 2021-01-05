@@ -1,0 +1,1 @@
+ALTER TABLE pracownicy ADD COLUMN (zarobkiSOCJALISTYCZNEXD int not null DEFAULT 3000);

@@ -1,0 +1,1 @@
+UPDATE pracownik SET nazwa="marian" WHERE id_pracownika LIKE 2;

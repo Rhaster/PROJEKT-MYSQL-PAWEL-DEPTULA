@@ -1,0 +1,1 @@
+SELECT*FROM panowie INNER JOIN kosmici ON panowie.ID_KOSMITY=kosmici.ID_KOSMITY WHERE kosmici.BRON LIKE "GRAWITACYJNA";

@@ -1,0 +1,1 @@
+SELECT*FROM sludzy RIGHT JOIN panowie ON panowie.id_pana=sludzy.id_pana WHERE panowie.ROLA LIKE "EGZEKUTOR";

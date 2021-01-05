@@ -1,0 +1,1 @@
+SELECT   *FROM sludzy ORDER BY data_zakontraktowania DESC LIMIT 2;

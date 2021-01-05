@@ -1,0 +1,1 @@
+CREATE VIEW `wyswietl slugi egzekutorow` AS SELECT*FROM sludzy inner JOIN panowie ON panowie.id_pana=sludzy.id_pana WHERE panowie.ROLA LIKE "EGZEKUTOR";

@@ -1,0 +1,1 @@
+CREATE VIEW `wyswietl panow ktorzy kmaja nat soba kosmitow z bronia grawitacyjna` AS SELECT panowie.IMIE,kosmici.BRON  FROM panowie INNER JOIN kosmici ON panowie.ID_KOSMITY=kosmici.ID_KOSMITY WHERE kosmici.BRON LIKE "GRAWITACYJNA";
