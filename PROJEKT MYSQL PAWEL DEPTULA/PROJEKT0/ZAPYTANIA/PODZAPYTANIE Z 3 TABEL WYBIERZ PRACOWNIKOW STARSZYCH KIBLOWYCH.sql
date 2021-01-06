@@ -1,0 +1,1 @@
+SELECT *FROM pracownicy WHERE id_szefa IN(SELECT id_szefa FROM sludzy WHERE id_pana IN ( SELECT id_pana FROM panowie WHERE ROLA ='STARSZY KIBLOWY'));
