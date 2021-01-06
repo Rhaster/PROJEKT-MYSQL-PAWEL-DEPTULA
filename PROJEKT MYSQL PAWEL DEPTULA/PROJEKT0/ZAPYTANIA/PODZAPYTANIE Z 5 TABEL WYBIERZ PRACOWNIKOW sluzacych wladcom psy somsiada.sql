@@ -1,0 +1,1 @@
+SELECT *FROM pracownicy WHERE id_szefa IN(SELECT id_szefa FROM sludzy WHERE id_pana IN ( SELECT id_pana FROM panowie WHERE id_kosmity IN(SELECT id_kosmity FROM kosmici WHERE id_wladcy IN(SELECT id_wladcy FROM wladcy WHERE HIERARHIA='PIES SOMSIADA'))));
