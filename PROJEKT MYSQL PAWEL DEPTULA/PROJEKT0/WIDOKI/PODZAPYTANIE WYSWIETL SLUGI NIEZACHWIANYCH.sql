@@ -1,0 +1,1 @@
+SELECT*FROM sludzy WHERE id_pana IN(SELECT id_pana FROM panowie WHERE LOJALNOSC ="NIEZACHWIANA");
