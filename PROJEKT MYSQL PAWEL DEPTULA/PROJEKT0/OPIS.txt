@@ -1,6 +1,6 @@
 PROJEKT PRZEDSTAWIA DANE PEWNEJ TAJEMNICZEJ ORGANIZACJI I ICH SLUG ,
  PROJEKT POKAZUJE RELACJE W TEJZE ORGANIZACJI ,
  SA TUTAJ ZAPYTANIA do konkretnych tabel i ich rekordów oraz zapytania łączace korzystajace z JOIN , sa tez podzapytania, FUNKCJE AGREGUJACE , oraz funkcja trzeba wpisac id od 1 do 10 by wyswietliła sume zarobkow pracownikow tego szefa
- , 2 trigery , 1 procedura , 
+ , 2 trigery , 1 procedura ,  zapytania oscyluja na relacjach w tej organizacji polegaja na pokazywaniu kto podlega pod kogo, 
  , Pozdrawiam i zycze miłego sprawdzania
  Paweł Deptuła
