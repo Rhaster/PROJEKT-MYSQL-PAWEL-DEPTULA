@@ -1,4 +1,5 @@
 CREATE DEFINER=`root`@`localhost` FUNCTION `suma zarobkow pracownikow danego szefa`(x int) RETURNS int
+DETERMINISTIC
 BEGIN
 SELECT
 SUM(zarobkiSOCJALISTYCZNEXD)
